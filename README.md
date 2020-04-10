@@ -1,5 +1,11 @@
 # Conditional Random Field Enhanced Graph Convolutional Neural Networks
 
+## Dependencies
+
+* tensorflow == 1.12.0
+* python == 3.6
+
+
 ## Run scripts
 
 ```
