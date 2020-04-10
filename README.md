@@ -1,4 +1,4 @@
-# Deep Attributed Network Embedding
+# Conditional Random Field Enhanced Graph Convolutional Neural Networks
 
 ## Run scripts
 
