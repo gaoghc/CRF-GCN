@@ -29,7 +29,7 @@ if __name__=='__main__':
               'early_stopping': 10,
               'dropout_prob': 0.5,
               'hidden_dim': [16],
-              'num_iters': args.crf_iters,
+              'crf_iters': args.crf_iters,
               'checkpt_file': './mod_citeseer_gcn_crf_{}.ckpt'.format(args.crf_type)}
 
     trainer = Trainer(config)

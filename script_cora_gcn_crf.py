@@ -31,7 +31,7 @@ if __name__=='__main__':
               'early_stopping': 10,
               'dropout_prob': 0.5,
               'hidden_dim': [16],
-              'num_iters': args.num_iters,
+              'crf_iters': args.crf_iters,
               'checkpt_file': './mod_cora_gcn_crf_{}.ckpt'.format(args.crf_type)}
 
     trainer = Trainer(config)

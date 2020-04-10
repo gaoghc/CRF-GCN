@@ -20,10 +20,11 @@ class Trainer(object):
         self.crf_iters = config['crf_iters']
         self.crf_type = config['crf_type']
 
+        data_dir = config['data_dir']
         dataset = config['dataset']
 
         self.adj, self.features, self.y_train, self.y_val, self.y_test,\
-        self.train_mask, self.val_mask, self.test_mask = load_data(dataset)
+        self.train_mask, self.val_mask, self.test_mask = load_data(data_dir, dataset)
         self.features = preprocess_features(self.features)
 
         self.support = [preprocess_adj(self.adj)]
