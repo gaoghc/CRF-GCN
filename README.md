@@ -9,7 +9,7 @@
 ## Run scripts
 
 ```
-python script_cora.py --crf_type gassian
+python script_cora.py --crf_type gaussian
 python script_cora.py --crf_type nn
 ```
 
